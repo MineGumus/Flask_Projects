@@ -5,7 +5,7 @@ def hello():
     return "Hello World from Flask!!!"
 @app.route('/second')
 def second():
-    return 'Bize Her Yer Çorum!!!!'
+    return 'This is my first flask project!!!!'
 @app.route('/third/subthird')
 def third():
     return 'This is the subpage of third page'
